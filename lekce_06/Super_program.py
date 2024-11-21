@@ -7,6 +7,8 @@ spousta kodu
 '''
 
 print(Multi_modul.slovnicek)
+print(__name__)
+print(Multi_modul.__name__)
 
 '''
 spousta kodu
