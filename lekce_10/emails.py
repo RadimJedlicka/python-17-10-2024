@@ -1,6 +1,6 @@
 def projdi_udaje(*args) -> list:
     for udaj in args:
-        if "quit" in udaj.lower():
+        if "quit" in udaj.lower(): # if udaj == 'quit'
             break
         else:
             jmeno, domena = udaj.split("@")
